@@ -1,0 +1,18 @@
+{
+  "properties": [
+    {
+      "name": "security.user.password",
+      "type": "java.lang.String",
+      "description": "Description for security.user.password."
+    },
+    {
+      "name": "security.user.name",
+      "type": "java.lang.String",
+      "description": "Description for security.user.name."
+    },
+    {
+      "name": "taco.orders.page-size",
+      "type": "java.lang.String",
+      "description": "Description for taco.pageSize."
+    }
+  ] }

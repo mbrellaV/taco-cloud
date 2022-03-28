@@ -1,0 +1,26 @@
+server:
+  port: 8443
+  ssl:
+    key-store: C:\Program Files\Java\jdk-17.0.1\bin\mykeys.jks
+    key-store-password: letmein
+    key-password: letmein
+
+taco:
+  orders:
+    pageSize: 10
+
+security:
+  user:
+    name: me
+    password: 123
+
+---
+spring:
+  profiles: prod
+  datasource:
+  url: jdbc:mysql://localhost/tacocloud
+  username: tacouser
+  password: tacopassword
+logging:
+  level:
+  tacos: WARN
